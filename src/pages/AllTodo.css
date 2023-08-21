@@ -1,0 +1,44 @@
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+button{
+    background-color: transparent;
+    border: cornflowerblue 1px solid;
+    color: cornflowerblue;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #4977c9;
+    border: 1px solid #4977c9;
+}
+
+table{
+    width: 100%;
+    line-height: 50px;
+}
+
+th{
+    text-align: start;
+    border-bottom: 1px solid gray;
+}
+
+td{
+    border-bottom: 1px solid gray;
+
+}
+
+.edit{
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.edit:hover{
+    color: #4977c9;
+}

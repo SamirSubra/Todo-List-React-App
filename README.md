@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Todo List Flask app
+<img src="src/assets/React-todo.png">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
+Welcome to **Toudou**, a simple yet powerful **todo list web application**! Toudou is a personal project (taken from a version made in python), that respect the creation of a **CRUD** (Create, Read, Update, Delete) application for managing todos. This project is built using React.js.
+With Toudou, you can **easily** manage your daily tasks and keep track of your progress towards achieving your goals. The intuitive user interface allows you to create, update, and delete todos, as well as view your todos by priority or due date. Additionally, the application provides user authentication and authorization to ensure that your todos remain secure.
 
-In the project directory, you can run:
+## Features
+Toudou provides a range of features to help you manage your todos:
 
-### `npm start`
+**Create**: You can easily create new todos by entering a task, due date, and state (task complete or not).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Read**: You can view all of your todos on the home page, and filter them by priority or due date. Additionally, you can view individual todos on their own page to see more details about the task.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Update**: You can update existing todos by editing their task, due date, state, or priority level.
 
-### `npm test`
+**Delete**: You can delete todos that are no longer needed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Toudou's user interface is designed to be intuitive and easy to use, allowing you to quickly manage your todos and stay organized. Whether you're working on a school project, planning your daily tasks, or managing a team, Toudou has the features you need to get things done.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**You only need to install the dependencies** :
+```bash
+$ npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+**Web Interface**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To use the application:
+When you are inside the folder "Todo-List-React-App", use **this command :**
+```bash
+$ npm start 
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Notes**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- \<#> is the unique identifier of the task.
+- \<task> is the description of the task.
+- \<complete> is a boolean value indicating whether the task is complete or not.
+- \<due> is the due date of the task in the format DD/MM/YY.
 
-## Learn More
+## Project status
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I will probably add more options, like import/export csv and others. However, i think that it's a pretty good project to start learning React.js.
